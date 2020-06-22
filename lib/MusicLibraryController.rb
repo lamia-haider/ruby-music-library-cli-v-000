@@ -70,7 +70,7 @@ class MusicLibraryController
       puts "Which song number would you like to play?"
       input = gets.strip.to_i
       Song.all.sort{ |a, b| a.name <=> b.name }.each.with_index(1) do |song, i|
-        if i == input - 1
+        if i == input + 1
           puts "Playing #{song.name} by #{song.artist.name}"
         end
 #binding.pry
