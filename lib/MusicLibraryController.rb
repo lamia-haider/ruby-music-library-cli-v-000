@@ -73,9 +73,6 @@ class MusicLibraryController
     input = gets.strip
     arr.detect.each.with_index do |a, i| input == i+1
       puts "#{i}"
+    end
   end
-
-
-
-
 end
