@@ -73,6 +73,7 @@ class MusicLibraryController
         if i-1 == input
           puts "Playing #{song.name} by #{song.artist.name}"
         end
+        binding.pry
       end
 
   end
